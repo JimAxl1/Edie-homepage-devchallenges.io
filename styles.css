@@ -1,0 +1,627 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*Texts ----------------------------------------------------------------*/
+#text3, .text4, #text5, #form1{
+    margin-left: 10.6666666667vw;
+}
+
+/*Texts font-weight: 500 */
+.text2, #text3, .text4, #text6, #text7, #text10, .text12, #text13, #text14, #text15, #text17, #text18, #text19, #text22, #text23{
+    font-weight: 500;
+}
+
+/*Texts font-family: poppins; */
+.text2, #text3, .text4, #text5, #text6, #text7, .text8, .text9, #text10, .text11, .text12, #text13, #text14, #text15, #text16, #text17, #text18, #text19, .text20, #text22, .card_button{
+    font-family: Poppins;
+}
+
+/*Texts for font-size: 2.4rem */
+#text1, .text2, .text4, #text7, .text8, #text10, #text17, #text18{
+    font-size: 2.4rem;
+}
+
+#text1{
+    font-family: Heebo;
+    font-weight: 800;
+    margin-top: -1px;
+}
+
+#text3{
+    font-size: 1.2rem;
+    color: #2D9CDB;
+}
+
+#text5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+#text6{
+    font-size: 1.0rem;
+    color: #828282;
+}
+
+#text7{
+    margin-left: 13.0666666667vw;
+}
+
+.text8{
+    font-weight: 700;
+}
+
+.text9{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#text10{
+    margin-right: 16.8vw;
+    margin-left: 12vw;
+}
+
+.text11{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #828282;
+}
+
+.text12{
+    font-size: 1.8rem;
+    color: black
+}
+
+#text13{
+    font-size: 1.8rem;
+    color:#2D9CDB;
+    text-decoration: none;
+}
+
+#text14{
+    font-size: 1.8rem;
+    margin: -1px;
+    color: #EB5757;
+}
+
+#text15{
+    font-size: 3.6rem;
+    margin: -1px;
+}
+
+#text16{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+#text18{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+#text19{
+    font-size: 1.8rem;
+    color: #828282;
+}
+
+.text20{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#text21{
+    font-family: Heebo;
+    font-size: 3.6rem;
+    font-weight: 800;
+    width: 100%;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+#text22{
+    font-size: 1.0rem;
+    color: #828282;
+}
+
+#text23{
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#text24{
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/*Others ----------------------------------------------------------------*/
+.icon_services{
+    width: 67px;
+    height: 67px;
+}
+
+#icon1{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#img1{
+    width: 92.8vw;
+    border-radius: 18px;
+    height: 38.6666666667vw;
+}
+
+#img4{
+    width: 82px;
+    height: 82px;
+    border-radius: 12px;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 36px;
+}
+
+li{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/*Containers ----------------------------------------------------------------*/
+/*Containers width: 100%*/
+#overlay, #menu, header, div > .team_imgs, footer, .input{
+    width: 100%;
+}
+
+#overlay{
+    height: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+#menu{
+    display: none;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card_services{
+    padding: 46px 35px;
+    margin: 20px 15px;
+}
+
+.card_services:hover{
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+.card img{
+    width: 93.6vw;
+    border-radius: 12px;
+}
+
+#div_team{
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#div_team_img{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 49.885% 43.602% 6.513%;
+    grid-template-rows: auto auto auto auto;
+    gap: 8px;
+}
+
+div > .team_imgs{
+    height: 100%;
+    border-radius: 24px;
+}
+
+#team_img1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#team_img2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+#team_img3{
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+#card_carl{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+footer{
+    background-color: #100E1D;
+    color: white;
+    margin-top: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+  
+#part1, #div_services, #part2, #part3{
+    padding: 10px;
+}
+
+#contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 94px;
+    margin-left: 41px;
+    margin-top: 60px;
+}
+
+#form1, #form2{
+    position: relative;
+    width: 75%;
+    max-width: 500px;
+}
+
+#form2{
+    margin-left: 41px;
+    margin-top: 60px;
+}
+
+.input{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.btn1{
+    position: absolute;
+    background-color: #2D9CDB;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 12px;
+    top: 20px;
+    right: 3px;
+}
+
+.card_button{
+    background-color: #E0E0E0;
+    border-radius: 12px;
+    border: none;
+    padding: 9px 13px;
+    font-size: 16px;
+    font-weight: 500;
+    color:  #828282;
+}
+
+.card_services:hover > .card_button{
+    background-color: #2D9CDB;
+    color: white;
+}
+
+@media screen and (min-width: 750px) and (max-width: 899px) {
+    .card > img{
+        width: 45vw;
+    }
+
+    .card:nth-child(odd){
+        margin-top: 80px;
+    }
+
+    #part2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 900px){
+    /*texts ----------------------------------------*/
+    /*Text font-weight : 500; */
+    .text2, #text3, .text4, #text6, #text7, #text10, .text12, #text13, #text14, #text15,  #text17, #text18, #text19, #text22{
+        font-weight: 500;
+    }
+
+    /*Text font-family: Poppins; */
+    .text2, #text3, .text4, #text5, #text6, #text7, .text8, .text9, #text10, .text11, .text12, #text13, #text14, #text15, #text16, #text17, #text18, #text19, .text20, #text22{
+        font-family: Poppins;
+    }
+
+    #text1{
+        font-family: Heebo;
+        font-size: 3.6rem;
+        font-weight: 800;
+    }
+
+    .text2{
+        font-size: 2.4rem;
+        color: black;
+    }
+
+    #text3{
+        font-size: 1.8rem;
+        margin-left: 19.2094313454vw;
+    }
+
+    .text4{
+        font-size: 4.8rem;
+        width: 543px;
+        margin-left: 19.2094313454vw;
+    }
+
+    #text5{
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: 366px;
+        margin-left: 19.2094313454vw;
+    }
+
+    #text6{
+        font-size: 1.4rem;
+    }
+
+    #text7{
+        font-size: 3.6rem;
+        width: 346px;
+        margin-top: 200px;
+    }
+
+    .text8{
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .text9{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    #text10{
+        font-size: 3.6rem;
+        width: 448px;
+        margin-top: 194px;
+    }
+
+    .text11{
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+    .text12{
+        font-size: 2.4rem;
+    }
+
+    #text13{
+        font-size: 2.4rem;
+        position: absolute;
+        right: 1px;
+        bottom: 10px;
+    }
+
+    #text14{
+        font-size: 1.8rem;
+    }
+
+    #text15{
+        font-size: 3.6rem;
+        width: 280px;
+    }
+
+    #text16{
+        font-size: 1.6rem;
+        font-weight: 400;
+        width: 276px;
+    }
+
+    #text17{
+        font-size: 3.6rem;
+    }
+
+    #text18{
+        font-size: 2.4rem;
+    }
+
+    #text19{
+        font-size: 1.8rem;
+    }
+
+    .text20{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    #text21{
+        font-family: Heebo;
+        font-size: 3.6rem;
+        font-weight: 800;
+    }
+
+    #text22{
+        font-size: 1.4rem;
+    }
+
+    /*Others -------------------------------------*/
+    #img1{
+        width: 92.3717059639vw;
+        height: 24.5492371706vw;
+        margin-left: 2.81414701805vw;
+    }
+
+    #icon1 , #closebtn {
+        display: none;
+    }
+
+    #overlay{
+        display: block;
+        height: auto;
+        width: 703px;
+        position: relative;
+        background-color: white;
+        padding: 0px;
+        padding-top: 5px;
+        transition: none;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        color: black;
+        margin-top: 0px;
+        top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .li1{
+        float: left;
+    }
+
+    #form1, .input, #form2{
+        width: 350px;
+    }
+
+    .input{
+        padding: 15px;
+    }
+
+    #form1{
+        margin-left: 19.2094313454vw;
+    }
+
+    /*Containers ------------------------------------*/
+    #div_services{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card_services{
+        width: 30%;
+        max-width: 341px;
+    }
+
+    .card{
+        max-width: 543px;
+        margin: 13px;
+        position: relative;
+    }
+
+    .card > img{
+        width: 37.6560332871vw;
+        height: 37.6560332871vw;
+        max-width: 545px;
+        max-height: 545px;
+    }
+
+    .card:nth-child(odd){
+        margin-top: 173px;
+    }
+
+    #part2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #div_team{
+        display: flex;
+        flex-direction: row;
+        width: 76.4909847434vw;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 200px;
+    }
+
+    #div_team_img{
+        width: 50%;
+        margin-right: 50px;
+    }
+
+    #part3{
+        width: 80%;
+        max-width: 937px;
+        margin-left: 11.4424410541vw;
+        margin-top: 150px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 200px;
+    }
+
+    #contacts{
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    header{
+        margin-left: 3vw;
+        width: 92.5104022191vw;
+        margin-top: 1.91262135922vw;
+    }
+
+    .btn1{
+        top: 25px;
+        right: 3px;
+        padding: 13px 25px;
+    }
+}

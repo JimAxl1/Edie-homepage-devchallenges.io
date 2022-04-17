@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Edie homepage | devchallenges.io</title>
+</head>
+<body>
+  <header>
+    <h1 id="text1">Eddie</h1>
+    <nav>
+      <img src="bars-solid.svg" id="icon1" onclick="openNav()">
+      <div id="overlay">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <ul id="menu">
+          <li class="li1"><a href="#part1" class="text2" onclick="closeNav()">Home</a></li>
+          <li class="li1"><a href="#div_services" class="text2" onclick="closeNav()">Services</a></li>
+          <li class="li1"><a href="#part2" class="text2" onclick="closeNav()">Our Works</a></li>
+          <li class="li1"><a href="#part3" class="text2" onclick="closeNav()">Clients</a></li>
+          <li class="li1"><a href="#contacts" class="text2" onclick="closeNav()">Contact</a></li>
+        </ul>        
+      </div>
+    </nav>
+  </header>
+  <div id="part1">
+    <p id="text3">Unhappy with your website?</p>
+    <h2 class="text4">We create beautiful and fast web services</h2>
+    <img src="heroImage.jpg" id="img1">
+    <h2 class="text4">Story, emotion and purpose</h2>
+    <p id="text5">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+    <form id="form1">
+      <label id="text6">Want us to contact you?</label><br>
+      <input type="email" placeholder="Email" class="input">
+      <button class="btn1">Join</button>
+    </form>
+  </div>
+  <h3 id="text7">We offer high demand services</h3>
+  <div id="div_services">
+    <div class="card_services">
+      <img src="pencil.ico" alt="UI/UX Design" class="icon_services">
+      <p class="text8">UI/UX Design</p>
+      <p class="text9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+      <button class="card_button">Get started</button>
+    </div>
+    <div class="card_services">
+      <img src="code.ico" alt="Front End" class="icon_services">
+      <p class="text8">Front End</p>
+      <p class="text9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+      <button class="card_button">Get started</button>
+    </div>
+    <div class="card_services">
+      <img src="menu.ico" alt="Back End" class="icon_services">
+      <p class="text8">Back End</p>
+      <p class="text9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+      <button class="card_button">Get started</button>
+    </div>
+  </div>
+  <h3 id="text10">Good design means good business</h3>
+  <div id="part2">
+    <div class="card">
+      <img src="smarthome.jpg">
+      <p class="text11">Full stack application<br>
+        <span class="text12">Smart home dashboard</span>
+      </p>  
+    </div>
+    <div class="card">
+      <img src="onboard.png">
+      <p class="text11">UX/UI design<br>
+        <span class="text12">Onboard application</span>
+      </p>
+    </div>
+    <div class="card">
+      <img src="booking.png">
+      <p class="text11">Mobile application<br>
+        <span class="text12">Booking system</span>
+      </p> 
+    </div>
+    <div class="card">
+      <img src="juice-product.png">
+      <p class="text11">Front End applicati on<br>
+        <span class="text12">Juice product homepage</span>
+      </p>
+      <a href="#" id="text13">see more ➡</a>
+    </div>  
+  </div>
+  <br><br>
+  <div id="div_team">
+    <div>
+      <p id="text14">Meet the team</p>
+      <h3 id="text15">We are chilled and a laidback team</h3>
+      <p id="text16">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div id="div_team_img">
+      <div id="team_img1"><img src="person3.png" class="team_imgs"></div>
+      <div id="team_img2"><img src="person1.png" class="team_imgs"></div>
+      <div id="team_img3"><img src="person2.png" class="team_imgs"></div>
+    </div>
+  </div>
+  <div id="part3">
+    <h3 id="text17"><q>Fast and outstanding resutls. Edie understands their customer's needs. They have a young and talented team</q></h3>
+    <div id="card_carl">
+      <img src="person4.png" id="img4">
+      <p id="text18">Carlos Tran<br>
+        <span id="text19">The Decorate Gatsby</span>
+      </p>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <li><a href="#part1" class="text20">Home</a></li>
+      <li><a href="#div_services" class="text20">Services</a></li>
+      <li><a href="#part2" class="text20">Our Works</a></li>
+      <li><a href="#part3" class="text20">Clients</a></li>
+      <li><a href="#contacts" class="text20">Contact</a></li>
+    </ul>
+    <div id="contacts">
+      <p id="text21">Eddie</p>
+      <img src="instagram.svg">
+      <img src="linkedin.svg">
+      <img src="twitter.svg">
+    </div>
+    <form id="form2">
+      <label id="text22">Want us to contact you?</label><br>
+      <input type="email" placeholder="Email" class="input">
+      <button class="btn1">Join</button>
+    </form>
+    <p id="text23">created by <a href="https://devchallenges.io/portfolio/JimAxl1" id="text24">JimAxl1</a> - devChallenges.io</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
